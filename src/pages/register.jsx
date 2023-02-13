@@ -59,7 +59,7 @@ function Regiser({screen , user, setUser, setMenu}) {
         <Grid mt='20px' container direction='column'>
           <Box px='20px' py='5px' >
             <Typography display='inline-block' component='h1' variant="h4">
-              Sign up
+              SignUp
             </Typography>
             <Typography component='span' variant="body2" >
               &nbsp;to continue.
@@ -112,7 +112,7 @@ function Regiser({screen , user, setUser, setMenu}) {
                   helperText='example +989123456789'
                   value={phone}
                   error={(error.phone)}
-                  onChange={(e)=>{setPassword(e.target.value); console.log(e.target.value);}}
+                  onChange={(e)=>{setPhone(e.target.value); console.log(e.target.value);}}
                   sx={{marginTop: '15px'}}
                 />
             </FormControl>
